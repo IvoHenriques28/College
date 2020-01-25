@@ -1,0 +1,1075 @@
+fileFormatVersion: 2
+guid: c6c59cc797c37df4888fc5ace23f3bc9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1053012484196986558
+    second: zombie_gettingup_0
+  - first:
+      213: -7233179837749440792
+    second: zombie_gettingup_1
+  - first:
+      213: -4821136983125239012
+    second: zombie_gettingup_2
+  - first:
+      213: -8357023387330051569
+    second: zombie_gettingup_3
+  - first:
+      213: 4554800786964768648
+    second: zombie_gettingup_4
+  - first:
+      213: -4227368969967939495
+    second: zombie_gettingup_5
+  - first:
+      213: 4589297702320366802
+    second: zombie_gettingup_6
+  - first:
+      213: 8315233566007337774
+    second: zombie_gettingup_7
+  - first:
+      213: 8806367732039276160
+    second: zombie_gettingup_8
+  - first:
+      213: -3900098889535311630
+    second: zombie_gettingup_9
+  - first:
+      213: -6445298738336234119
+    second: zombie_gettingup_10
+  - first:
+      213: -1772210348759182810
+    second: zombie_gettingup_11
+  - first:
+      213: 2334967842167935796
+    second: zombie_gettingup_12
+  - first:
+      213: 3786274150541206215
+    second: zombie_gettingup_13
+  - first:
+      213: 2206492179370566533
+    second: zombie_gettingup_14
+  - first:
+      213: -7016648207778573930
+    second: zombie_gettingup_15
+  - first:
+      213: -6598251593939525182
+    second: zombie_gettingup_16
+  - first:
+      213: 8000226924141305525
+    second: zombie_gettingup_17
+  - first:
+      213: -2141677179702443476
+    second: zombie_gettingup_18
+  - first:
+      213: 2571699831592801888
+    second: zombie_gettingup_19
+  - first:
+      213: 1926379061507532758
+    second: zombie_gettingup_20
+  - first:
+      213: 5798497117379149357
+    second: zombie_gettingup_21
+  - first:
+      213: 129249596281155622
+    second: zombie_gettingup_22
+  - first:
+      213: -7470187261565736088
+    second: zombie_gettingup_23
+  - first:
+      213: 1123820619296008601
+    second: zombie_gettingup_24
+  - first:
+      213: 6742566562474139167
+    second: zombie_gettingup_25
+  - first:
+      213: -3863271877556747533
+    second: zombie_gettingup_26
+  - first:
+      213: 1360001541958597211
+    second: zombie_gettingup_27
+  - first:
+      213: 5351764872604862303
+    second: zombie_gettingup_28
+  - first:
+      213: 5848010370475545067
+    second: zombie_gettingup_29
+  - first:
+      213: -1795100397729922228
+    second: zombie_gettingup_30
+  - first:
+      213: -7188058639971300832
+    second: zombie_gettingup_31
+  - first:
+      213: -5508252688082738463
+    second: zombie_gettingup_32
+  - first:
+      213: -6414585011231464488
+    second: zombie_gettingup_33
+  - first:
+      213: -7688150939540379605
+    second: zombie_gettingup_34
+  - first:
+      213: 3976558794709868680
+    second: zombie_gettingup_35
+  - first:
+      213: -8888712320415120762
+    second: zombie_gettingup_36
+  - first:
+      213: 340682898045360758
+    second: zombie_gettingup_37
+  - first:
+      213: 6448138091595841544
+    second: zombie_gettingup_38
+  - first:
+      213: -7637991754639786098
+    second: zombie_gettingup_39
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: zombie_gettingup_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1072
+        width: 68
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84dfe39e4f968c74fa69338733ff226f
+      internalID: -1053012484196986558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_1
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1073
+        width: 55
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35005532a440c44bac3bac02e4c3755
+      internalID: -7233179837749440792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_2
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1051
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd6ebce9135cf94887a7166d5bc055e
+      internalID: -4821136983125239012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_3
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1046
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82d340b58f51f84ea003db2d3c74436
+      internalID: -8357023387330051569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_4
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 941
+        width: 66
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8db4edcda003247889abaad702a6a8
+      internalID: 4554800786964768648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_5
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 945
+        width: 58
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7921ea0c9edb3e84db20add9d9aecc13
+      internalID: -4227368969967939495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_6
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 920
+        width: 45
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5832d61b4f169184f90153b1bb704869
+      internalID: 4589297702320366802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_7
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 916
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259501f057ca96743976f0b3b8bd27b4
+      internalID: 8315233566007337774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_8
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 811
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec4936d068a07b4f845bf738b6c8391
+      internalID: 8806367732039276160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_9
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 817
+        width: 59
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff760167a82fab44aa83107b68c1b18e
+      internalID: -3900098889535311630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_10
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 789
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8adfa9ca4232b4d97d95bf596b9e6b
+      internalID: -6445298738336234119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_11
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 789
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7abce3ec8f0f61141a9714c4c7e73886
+      internalID: -1772210348759182810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_12
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 680
+        width: 60
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6bc12ba257089246bd544196482a866
+      internalID: 2334967842167935796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_13
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 689
+        width: 61
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce96d6e627038b4590b687a917e5dc4
+      internalID: 3786274150541206215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_14
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 657
+        width: 39
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1ca467f89708042b3cf74e93c42731
+      internalID: 2206492179370566533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_15
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 666
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c92dbfc046bec4cb7116f29ca471b8
+      internalID: -7016648207778573930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_16
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 673
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e92f16288591044199b50b16c771f3a
+      internalID: -6598251593939525182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_17
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 549
+        width: 58
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf521d8576dd2d4fbf2d8c2f7fc3438
+      internalID: 8000226924141305525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_18
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 561
+        width: 62
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77460a9cbda0a68458ba5da630e2321d
+      internalID: -2141677179702443476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_19
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 528
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc117f26da8f6548af521094f278641
+      internalID: 2571699831592801888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_20
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 541
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e595bb0d29989e64798d96838852f86f
+      internalID: 1926379061507532758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_21
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 544
+        width: 54
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7c7f6e5e05a8b44a489e055d9abd91
+      internalID: 5798497117379149357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_22
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 419
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c2304404dcc0949b35f1238ad16613
+      internalID: 129249596281155622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_23
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 433
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dba2c6e09f4731439556c46dd40c929
+      internalID: -7470187261565736088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_24
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 410
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cca977ed8b53e043bd3e84ab643d1a8
+      internalID: 1123820619296008601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_25
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 413
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3726c7477775d94d9b622b6a7cb63fd
+      internalID: 6742566562474139167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_26
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 415
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c851c7723465647abc3f59a5bfc096
+      internalID: -3863271877556747533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_27
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 289
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e281b12ee4fe874fbab8cd5502dc4ad
+      internalID: 1360001541958597211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_28
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 305
+        width: 66
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6458d3621c6c243a15c1e9f7464984
+      internalID: 5351764872604862303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_29
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 296
+        width: 60
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa3eef0bd00b5e489f51b808fc48e0c
+      internalID: 5848010370475545067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_30
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 285
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aadf112dddd0cd34d974303377b9b704
+      internalID: -1795100397729922228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_31
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 286
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f7933248a64f64ea2af9e92316e19e
+      internalID: -7188058639971300832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_32
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 177
+        width: 67
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204c3eb5f4e87f544bb53f3638928146
+      internalID: -5508252688082738463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_33
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 174
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3767054acc5cba408e6ceac19484f37
+      internalID: -6414585011231464488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_34
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 157
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f303c380dc25bf840a78bda347637a00
+      internalID: -7688150939540379605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_35
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 157
+        width: 55
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7bde0479c6d38143a3e1b3f7a4af4ed
+      internalID: 3976558794709868680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_36
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 49
+        width: 68
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ef6d12f48f9a443b22b99671d5400f
+      internalID: -8888712320415120762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_37
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 49
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb6183c485d33b4988f68a15cde8280
+      internalID: 340682898045360758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_38
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 28
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0108209c9aacab341ae3f0cb6171b3e8
+      internalID: 6448138091595841544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_gettingup_39
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 27
+        width: 55
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dde425a4c94c7e40b3b5595fabc000f
+      internalID: -7637991754639786098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

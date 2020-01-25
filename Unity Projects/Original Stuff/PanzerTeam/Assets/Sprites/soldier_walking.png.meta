@@ -1,0 +1,679 @@
+fileFormatVersion: 2
+guid: b01b2d181aed2614aa009bb4ffb6bfa1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7389194611065720075
+    second: soldier_walking_0
+  - first:
+      213: 8888434012164909492
+    second: soldier_walking_1
+  - first:
+      213: -3025464027323192316
+    second: soldier_walking_2
+  - first:
+      213: -7675932547254010879
+    second: soldier_walking_3
+  - first:
+      213: -7038152374717073496
+    second: soldier_walking_4
+  - first:
+      213: 3236202629951707557
+    second: soldier_walking_5
+  - first:
+      213: -5384680674881379179
+    second: soldier_walking_6
+  - first:
+      213: 7216920199208770081
+    second: soldier_walking_7
+  - first:
+      213: -6239534580093942468
+    second: soldier_walking_8
+  - first:
+      213: -7899873939433703561
+    second: soldier_walking_9
+  - first:
+      213: 5354262375492188679
+    second: soldier_walking_10
+  - first:
+      213: 2215280400296332925
+    second: soldier_walking_11
+  - first:
+      213: 3568042181072368104
+    second: soldier_walking_12
+  - first:
+      213: -3865786723115185764
+    second: soldier_walking_13
+  - first:
+      213: 1674352495325776463
+    second: soldier_walking_14
+  - first:
+      213: -2656068018401141439
+    second: soldier_walking_15
+  - first:
+      213: -367178617162897696
+    second: soldier_walking_16
+  - first:
+      213: 5149340229208849380
+    second: soldier_walking_17
+  - first:
+      213: -951316022058956363
+    second: soldier_walking_18
+  - first:
+      213: -618347724473799958
+    second: soldier_walking_19
+  - first:
+      213: 3780288562738408934
+    second: soldier_walking_20
+  - first:
+      213: 8748502887624212845
+    second: soldier_walking_21
+  - first:
+      213: 7063356771736000982
+    second: soldier_walking_22
+  - first:
+      213: -5647962412293875518
+    second: soldier_walking_23
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: soldier_walking_0
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 840
+        width: 76
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1e0a5a36c907149a694fdf40a309a1
+      internalID: 7389194611065720075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_walking_1
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 840
+        width: 76
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aff3c5b5e062d84eb4f24c217dd9c66
+      internalID: 8888434012164909492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_walking_2
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 840
+        width: 72
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4695f68420b1d354cb2af8275c339b3a
+      internalID: -3025464027323192316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_walking_3
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 780
+        width: 99
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65749fc0b8bd8944a889c3ed13c46edf
+      internalID: -7675932547254010879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_walking_4
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 780
+        width: 94
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694060b7faa75ee4ba262fc94f36e6b4
+      internalID: -7038152374717073496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_walking_5
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 775
+        width: 86
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf4e6a81e4cefd45878fb55ca0a5c01
+      internalID: 3236202629951707557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_walking_6
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 720
+        width: 81
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b16e18f8b156ca4eb72686c796f992b
+      internalID: -5384680674881379179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_walking_7
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 720
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f81daabb3b109d4ebade6dc344bb4b2
+      internalID: 7216920199208770081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_walking_8
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 702
+        width: 72
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7104ddd98f58e45baa2786f3767ba2
+      internalID: -6239534580093942468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_walking_9
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 660
+        width: 78
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3605c932ff41a498befa145a3990b4
+      internalID: -7899873939433703561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_walking_10
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 660
+        width: 77
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33846b5d29d583f4d9569906dfd8c9de
+      internalID: 5354262375492188679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_walking_11
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 633
+        width: 72
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70071a4de9e83ce40b68f7d2e091bca7
+      internalID: 2215280400296332925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_walking_12
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 600
+        width: 90
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4048c90602e67f44d89e0523186e28a9
+      internalID: 3568042181072368104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_walking_13
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 600
+        width: 90
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84bd9a4c979ac314a95ae85d8090f7e4
+      internalID: -3865786723115185764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_walking_14
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 563
+        width: 72
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: becb1c83df9882c43b606238e829dcde
+      internalID: 1674352495325776463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_walking_15
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 540
+        width: 89
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715436d202101674fab275f5707ad08b
+      internalID: -2656068018401141439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_walking_16
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 540
+        width: 89
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4ffab3a5987614e84bd5735a3e8b95
+      internalID: -367178617162897696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_walking_17
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 499
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9acd296d489fd9447baf01c1b928131e
+      internalID: 5149340229208849380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_walking_18
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 480
+        width: 77
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f3aa233a0c8b443a6bb8ed8c176ce0
+      internalID: -951316022058956363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_walking_19
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 480
+        width: 81
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d458028a8919d9b40b9359265e18104f
+      internalID: -618347724473799958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_walking_20
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 420
+        width: 84
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276e3e248bd2cb542ae199111ff06b10
+      internalID: 3780288562738408934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_walking_21
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 420
+        width: 84
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00524e7cf19fe84582a3dece85172ce
+      internalID: 8748502887624212845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_walking_22
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 432
+        width: 74
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4a4ac39b16f5b41bc8ebaeb848207a
+      internalID: 7063356771736000982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_walking_23
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 378
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9acc2835d7375014f84fea390771ba6b
+      internalID: -5647962412293875518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
