@@ -50,7 +50,7 @@ class Piece {
   
   void oneStepLeft() {
     x -= 1;
-    //if (!grid.tryOneStepLeft()) {
+    
       x+=1;
     }
   
@@ -58,7 +58,7 @@ class Piece {
  
   void oneStepRight() {
     x += 1;
-    //if (!grid.tryOneStepRight()) {
+    
       x -= 1;
     }
   
@@ -94,7 +94,7 @@ class Piece {
          r = r-1 < 0 ? 3 : r-1; 
         
       }else{
-        //soundRotation();
+        
       }
       break;
     case SHIFT:

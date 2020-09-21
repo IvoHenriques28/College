@@ -18,7 +18,7 @@ class Grid {
     } else if (y < 0) {
       return true;
     }
-    //println("WARNING: trying to access out of bond cell, x: "+x+" y: "+y);
+    
     return false;
   }
 
@@ -41,7 +41,7 @@ class Grid {
   void addPieceToGrid() {
     int x = piece.x;
     int y = piece.y;
-    //println("addPieceToGrid x: "+x+" y: "+y);
+   
     int[][][] pos = piece.pos;
     for (int i = 0; i < 4; i ++) {
       if(pos[r][i][1]+y >= 0){
@@ -49,12 +49,11 @@ class Grid {
       }else{
         gameOn = false;
         gameOver = true;
-        //soundGameOver();
-        //println("game over");
+      
         return;
       }
     }
-    //soundTouchDown();
+    
     score.addPiecePoints();
     checkFullLines();
     goToNextPiece();
@@ -71,7 +70,7 @@ class Grid {
           break;
         }
       }
-      // this jth line if full, delete it
+      
       if (fullLine) {
         nb++;
         for (int k = j; k > 0; k--) {
@@ -79,18 +78,18 @@ class Grid {
             cells[i][k] = cells[i][k-1];
           }
         }
-        // top line will be empty
+       
         for (int i = 0; i < w; i++) {
           cells[i][0] = 0;
         }
       }
     }
     deleteLines(nb);
-    //soundClearLines(nb);
+    
   }
 
   void deleteLines(int nb) {
-    //println("deleted lines: "+nb);
+    
     nbLines += nb;
     if (int(nbLines / 10) > level-1) {
       goToNextLevel();
@@ -99,7 +98,7 @@ class Grid {
   }
 
   void setToBottom() {
-    int originalY = piece.y;
+    
     int j = 0;
     for (j = 0; j < h; j ++) {
       if (!pieceFits()) {

@@ -19,6 +19,9 @@ Boolean gameOver = false;
 Boolean gameOn = false;
 Boolean isMuted = false;
 
+PImage startMenu;
+PImage gameMenu;
+
 import processing.sound.*;
 SoundFile file;
 
@@ -30,6 +33,8 @@ void setup()
   file = new SoundFile (this, "Tetris.mp3");
   file.play();
   file.loop();
+  startMenu = loadImage("Menu.png");
+  gameMenu = loadImage("Jogo.png");
 }
 
 void initialize() {
@@ -46,7 +51,7 @@ void initialize() {
 
 void draw()
 {
-  background(60);
+  background(gameMenu);
 
   if (grid != null) {
     grid.drawGrid();
@@ -74,16 +79,12 @@ void draw()
     text("Game Over", 120, 220);
   }
   if (!gameOn) {
-    noStroke();
-    fill(255, 60);
-    rect(110, 250, 255, 2*txtSize, 3);
-    fill(textColor);
-    text("press 'p' to start playing!", 120, 280);
+   background(startMenu);
   }
 }
 
 void goToNextPiece() {
-  //println("-- - nextPiece - - --");
+  
   piece = new Piece(nextPiece.kind);
   nextPiece = new Piece(-1);
   r = 0;
@@ -93,7 +94,7 @@ void goToNextLevel() {
   score.addLevelPoints();
   level = 1 + int(nbLines / 10);
   dt *= .8;
-  //soundLevelUp();
+
 }
 
 void keyPressed() {
@@ -110,7 +111,7 @@ void keyPressed() {
   } else if (keyCode == 80) {// "p"
     if (!gameOn) {
       initialize();
-      //soundGameStart();
+      
       gameOver = false;
       gameOn = true;
     }
