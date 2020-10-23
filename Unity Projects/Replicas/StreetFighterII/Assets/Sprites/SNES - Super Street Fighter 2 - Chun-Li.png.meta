@@ -38,6 +38,24 @@ TextureImporter:
   - first:
       213: 671561803352162891
     second: SNES - Super Street Fighter 2 - Chun-Li_11
+  - first:
+      213: -2455461170336275274
+    second: SNES - Super Street Fighter 2 - Chun-Li_12
+  - first:
+      213: -5519938273037198367
+    second: SNES - Super Street Fighter 2 - Chun-Li_13
+  - first:
+      213: 8723786299516981248
+    second: SNES - Super Street Fighter 2 - Chun-Li_14
+  - first:
+      213: -7077473320789198571
+    second: SNES - Super Street Fighter 2 - Chun-Li_15
+  - first:
+      213: -1453481263136365530
+    second: SNES - Super Street Fighter 2 - Chun-Li_16
+  - first:
+      213: -2310994771101134453
+    second: SNES - Super Street Fighter 2 - Chun-Li_17
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -239,7 +257,7 @@ TextureImporter:
         width: 46
         height: 77
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -260,7 +278,7 @@ TextureImporter:
         width: 42
         height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -281,7 +299,7 @@ TextureImporter:
         width: 37
         height: 79
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -302,7 +320,7 @@ TextureImporter:
         width: 42
         height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -323,7 +341,7 @@ TextureImporter:
         width: 48
         height: 77
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -344,7 +362,7 @@ TextureImporter:
         width: 42
         height: 77
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -365,7 +383,7 @@ TextureImporter:
         width: 37
         height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -386,7 +404,7 @@ TextureImporter:
         width: 42
         height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -394,6 +412,132 @@ TextureImporter:
       bones: []
       spriteID: b42c68de6edd15900800000000000000
       internalID: 671561803352162891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Street Fighter 2 - Chun-Li_12
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1000
+        width: 59
+        height: 80
+      alignment: 9
+      pivot: {x: 0.40179706, y: 0.57595825}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4675e33137cedd0800000000000000
+      internalID: -2455461170336275274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Street Fighter 2 - Chun-Li_13
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1000
+        width: 51
+        height: 85
+      alignment: 9
+      pivot: {x: 0.54835075, y: 0.50193447}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ebd885f26d3563b0800000000000000
+      internalID: -5519938273037198367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Street Fighter 2 - Chun-Li_14
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1000
+        width: 59
+        height: 81
+      alignment: 9
+      pivot: {x: 0.38576314, y: 0.52638376}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00011273b6d111970800000000000000
+      internalID: 8723786299516981248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Street Fighter 2 - Chun-Li_15
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1000
+        width: 44
+        height: 81
+      alignment: 9
+      pivot: {x: 0.505962, y: 0.54371625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5193e074383c7cd90800000000000000
+      internalID: -7077473320789198571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Street Fighter 2 - Chun-Li_16
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 1000
+        width: 47
+        height: 80
+      alignment: 9
+      pivot: {x: 0.49411467, y: 0.53978574}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6242217fd7234dbe0800000000000000
+      internalID: -1453481263136365530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Street Fighter 2 - Chun-Li_17
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1000
+        width: 44
+        height: 81
+      alignment: 9
+      pivot: {x: 0.50260645, y: 0.54668665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b815bb6ff72bdefd0800000000000000
+      internalID: -2310994771101134453
       vertices: []
       indices: 
       edges: []
