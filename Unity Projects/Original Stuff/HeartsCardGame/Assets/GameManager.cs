@@ -107,6 +107,7 @@ public class GameManager : MonoBehaviour
             StartCoroutine(ProcessSceneChange());
         }
 
+
     }
 
     public void PlayGame()

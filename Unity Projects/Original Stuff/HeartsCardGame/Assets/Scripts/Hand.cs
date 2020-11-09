@@ -103,8 +103,9 @@ public class Hand : MonoBehaviour
         {
             if(card.GetComponent<Card>().suit == type && !playableCards.Contains(card))
             {
+              
+                    playableCards.Add(card);
                 
-                playableCards.Add(card);
             }
         }
         if(searchType == "hearts")
@@ -115,7 +116,14 @@ public class Hand : MonoBehaviour
             }
             else
             {
-                playableCards.Sort((x, y) => y.GetComponent<Card>().value.CompareTo(x.GetComponent<Card>().value));
+                if(GameManager.tableCards[0].suit != "hearts")
+                {
+                    playableCards.Sort((x, y) => y.GetComponent<Card>().value.CompareTo(x.GetComponent<Card>().value));
+                }
+                else
+                {
+                    playableCards.Sort((x, y) => x.GetComponent<Card>().value.CompareTo(y.GetComponent<Card>().value));
+                }
             }
            
         }

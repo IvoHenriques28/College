@@ -25,24 +25,28 @@ public class EnemyMovement : MonoBehaviour
     {
         
         rb.velocity = moveDir * moveForce;
-        if( MapCreator.matrix[(int)transform.position.x + offset, (int)transform.position.y] > 0 && i == 0 && MapCreator.matrix[(int)transform.position.x + offset, (int)transform.position.y ] < 3)
+        if( MapCreator.matrix[Mathf.RoundToInt(transform.position.x - 0.4f)+ offset, Mathf.RoundToInt(transform.position.y)] > 0 && i == 0 && MapCreator.matrix[Mathf.RoundToInt(transform.position.x - 0.4f) + offset, Mathf.RoundToInt(transform.position.y)] < 4)
         {
             moveDir = ChooseDirection();
         }
-        else if (MapCreator.matrix[(int)transform.position.x - offset, (int)transform.position.y] > 0 && i == 2 && MapCreator.matrix[(int)transform.position.x - offset, (int)transform.position.y ] < 3)
+        else if (MapCreator.matrix[Mathf.RoundToInt(transform.position.x + 0.4f) - offset, Mathf.RoundToInt(transform.position.y)] > 0 && i == 2 && MapCreator.matrix[Mathf.RoundToInt(transform.position.x + 0.4f) - offset, Mathf.RoundToInt(transform.position.y)] < 4)
+        {
+           
+            moveDir = ChooseDirection();
+        }
+        else if (MapCreator.matrix[Mathf.RoundToInt(transform.position.x), Mathf.RoundToInt(transform.position.y) + offset] > 0 && i == 3 && MapCreator.matrix[Mathf.RoundToInt(transform.position.x), Mathf.RoundToInt(transform.position.y) + offset] < 4)
         {
             moveDir = ChooseDirection();
         }
-        else if (MapCreator.matrix[(int)transform.position.x, (int)transform.position.y + offset] >0 && i == 3 && MapCreator.matrix[(int)transform.position.x, (int)transform.position.y + offset] < 3)
-        {
-            moveDir = ChooseDirection();
-        }
-        else if (MapCreator.matrix[(int)transform.position.x, (int)transform.position.y - offset] > 0 && i == 1 && MapCreator.matrix[(int)transform.position.x, (int)transform.position.y - offset] < 3)
+        else if (MapCreator.matrix[Mathf.RoundToInt(transform.position.x), Mathf.RoundToInt(transform.position.y) - offset] > 0 && i == 1 && MapCreator.matrix[Mathf.RoundToInt(transform.position.x), Mathf.RoundToInt(transform.position.y) - offset] < 4)
         {
             moveDir = ChooseDirection();
         }
         explosion = GameObject.FindGameObjectWithTag("Explosion");
-        distance = Vector2.Distance(transform.position, explosion.transform.position);
+        if(explosion != null)
+        {
+            distance = Vector2.Distance(transform.position, explosion.transform.position);
+        }
         if (distance < 1)
         {
             Destroy(gameObject);
