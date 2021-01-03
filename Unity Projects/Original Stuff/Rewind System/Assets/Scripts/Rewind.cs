@@ -13,12 +13,11 @@ public class Rewind : MonoBehaviour
 
     public bool isRewinding = false;
     public bool isForwarding = false;
-    public bool isRecording = false;
-
+    public bool isRecording = true;
     public bool bulletime;
     public int recordTime = 0;
-    [SerializeField]
-    List<PointInTime> pointsInTime;
+
+    public List<PointInTime> pointsInTime;
     Rigidbody rb;
     NavMeshAgent nma;
 
@@ -42,9 +41,18 @@ public class Rewind : MonoBehaviour
 
     void Update()
     {
+        if(recordTime < 0)
+        {
+            recordTime = 0;
+        }
+        else if(recordTime > limite)
+        {
+            recordTime = limite;
+        }
         Debug.Log(pointsInTime.Count);
         if (bulletime == true)
         {
+
             if (Input.GetKeyDown(KeyCode.R))//start rewinding
             {
                 StartRewinding();
@@ -62,19 +70,13 @@ public class Rewind : MonoBehaviour
                 StopForward();
             }
         }
-        if (Input.GetKeyDown(KeyCode.K)) //start recording frames
-        {
-
-            isRecording = !isRecording;
-        }
         if (Input.GetKeyDown(KeyCode.Y)) //enter and leave pause mode
         {
             if (bulletime == false)
             {
                 recordTime = 0;
-                isRecording = false;
-
                 bulletime = true;
+                isRecording = false;
                 rb.isKinematic = true;
                 if (GetComponent<NavMeshAgent>() != null)
                 {
@@ -86,6 +88,7 @@ public class Rewind : MonoBehaviour
             else if (bulletime == true)
             {
                 bulletime = false;
+                isRecording = true;
                 rb.isKinematic = false;
                 if (GetComponent<NavMeshAgent>() != null)
                 {
@@ -115,10 +118,12 @@ public class Rewind : MonoBehaviour
         {
             FastForward();
         }
-        else if(isRecording == true)
+        else if (isRecording)
         {
+
             Record();
         }
+        
 
 
        
@@ -132,15 +137,20 @@ public class Rewind : MonoBehaviour
         if (pointsInTime.Count > 0)
         {
             PointInTime point = pointsInTime[recordTime];
-            //PointInTime pointInTime = pointsInTime[0];
+            
             transform.position = point.position;
-            //transform.rotation = point.rotation;
+            transform.rotation = point.rotation;
 
             recordTime++;
 
             if (recordTime >= pointsInTime.Count)
+            {
+                Debug.Log("Bullshit");
                 recordTime = pointsInTime.Count - 1;
-            // pointsInTime.RemoveAt(0);*/
+                pointsInTime.RemoveAt(0);
+
+            }
+               
 
         }
         else
@@ -152,16 +162,16 @@ public class Rewind : MonoBehaviour
 
     void FastForward()
     {
-        if (recordTime > 0)
+        if (pointsInTime.Count > 0)
         {
-            PointInTime point = pointsInTime[recordTime];
-            //PointInTime pointInTime = pointsInTime[0];
+            PointInTime point = pointsInTime[recordTime - 1];
+            
             transform.position = point.position;
-            //transform.rotation = point.rotation;
+            transform.rotation = point.rotation;
 
 
             recordTime--;
-            // pointsInTime.RemoveAt(0);*/
+            
 
         }
         else
@@ -173,11 +183,11 @@ public class Rewind : MonoBehaviour
 
     void Record()
     {
-        if (pointsInTime.Count > limite)
+        if (pointsInTime.Count >= limite)
             pointsInTime.RemoveAt(pointsInTime.Count - 1);
 
 
-        pointsInTime.Insert(0, new PointInTime(transform.position, rb.velocity, rb.angularVelocity, id));
+        pointsInTime.Insert(0, new PointInTime(transform.position, rb.velocity, rb.angularVelocity, transform.rotation));
     }
 
     void StartRewinding()
