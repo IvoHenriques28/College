@@ -23,25 +23,24 @@ public class EnemyMovement : MonoBehaviour
     
     void Update()
     {
-        
-        rb.velocity = moveDir * moveForce;
-        if( MapCreator.matrix[Mathf.RoundToInt(transform.position.x - 0.4f)+ offset, Mathf.RoundToInt(transform.position.y)] > 0 && i == 0 && MapCreator.matrix[Mathf.RoundToInt(transform.position.x - 0.4f) + offset, Mathf.RoundToInt(transform.position.y)] < 4)
+        if ( MapCreator.matrix[Mathf.RoundToInt(transform.position.x - 0.4f)+ offset, Mathf.RoundToInt(transform.position.y)] > 0 && i == 0 )
         {
             moveDir = ChooseDirection();
         }
-        else if (MapCreator.matrix[Mathf.RoundToInt(transform.position.x + 0.4f) - offset, Mathf.RoundToInt(transform.position.y)] > 0 && i == 2 && MapCreator.matrix[Mathf.RoundToInt(transform.position.x + 0.4f) - offset, Mathf.RoundToInt(transform.position.y)] < 4)
+        else if (MapCreator.matrix[Mathf.RoundToInt(transform.position.x + 0.4f) - offset, Mathf.RoundToInt(transform.position.y)] > 0 && i == 2 )
         {
            
             moveDir = ChooseDirection();
         }
-        else if (MapCreator.matrix[Mathf.RoundToInt(transform.position.x), Mathf.RoundToInt(transform.position.y) + offset] > 0 && i == 3 && MapCreator.matrix[Mathf.RoundToInt(transform.position.x), Mathf.RoundToInt(transform.position.y) + offset] < 4)
+        else if (MapCreator.matrix[Mathf.RoundToInt(transform.position.x), Mathf.RoundToInt(transform.position.y) + offset] > 0 && i == 3)
         {
             moveDir = ChooseDirection();
         }
-        else if (MapCreator.matrix[Mathf.RoundToInt(transform.position.x), Mathf.RoundToInt(transform.position.y) - offset] > 0 && i == 1 && MapCreator.matrix[Mathf.RoundToInt(transform.position.x), Mathf.RoundToInt(transform.position.y) - offset] < 4)
+        else if (MapCreator.matrix[Mathf.RoundToInt(transform.position.x), Mathf.RoundToInt(transform.position.y) - offset] > 0 && i == 1)
         {
             moveDir = ChooseDirection();
         }
+        rb.velocity = moveDir * moveForce;
         explosion = GameObject.FindGameObjectWithTag("Explosion");
         if(explosion != null)
         {
@@ -80,7 +79,7 @@ public class EnemyMovement : MonoBehaviour
         }
         if (i == 2)
         {
-            temp =-transform.right;
+            temp = -transform.right;
             ResetTriggers();
             anim.SetTrigger("WalkLeft");
         }
