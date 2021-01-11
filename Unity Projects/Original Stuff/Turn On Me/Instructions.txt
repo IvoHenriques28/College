@@ -1,0 +1,9 @@
+Extract all folders
+
+Open project "LineNetServer" using Visual Studio and run it to start up the server.
+Then initialize 2 versions of the game, 1 can be in Unity itself and another with the build
+The first version to press "Start" on the game will be the Hunter, while the 2nd will be the Hunted
+
+Warning: Only when 2 versions of the game are initialized does the game fully begin, and if you shut down 1 of them
+before the game ends, to restart you need to restart the server and both versions
+

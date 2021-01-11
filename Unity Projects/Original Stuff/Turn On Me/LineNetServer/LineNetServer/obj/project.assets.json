@@ -1,0 +1,134 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "LiteNetLib/0.9.2": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/LiteNetLib.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/LiteNetLib.dll": {}
+        }
+      },
+      "LiteNetLibShared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/LiteNetLibShared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LiteNetLibShared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LiteNetLib/0.9.2": {
+      "sha512": "S5elfCPxW7EvdaoNSTx3APLhiPEIeVWeEaUDBpGjqbRgyQVfjRv90v4Au4PZAs+dkeVYTf6F61XYKYWKythamw==",
+      "type": "package",
+      "path": "litenetlib/0.9.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/LiteNetLib.dll",
+        "lib/net35/LiteNetLib.pdb",
+        "lib/net35/LiteNetLib.xml",
+        "lib/netcoreapp2.1/LiteNetLib.deps.json",
+        "lib/netcoreapp2.1/LiteNetLib.dll",
+        "lib/netcoreapp2.1/LiteNetLib.pdb",
+        "lib/netcoreapp2.1/LiteNetLib.xml",
+        "lib/netcoreapp3.0/LiteNetLib.deps.json",
+        "lib/netcoreapp3.0/LiteNetLib.dll",
+        "lib/netcoreapp3.0/LiteNetLib.pdb",
+        "lib/netcoreapp3.0/LiteNetLib.xml",
+        "lib/netstandard2.0/LiteNetLib.deps.json",
+        "lib/netstandard2.0/LiteNetLib.dll",
+        "lib/netstandard2.0/LiteNetLib.pdb",
+        "lib/netstandard2.0/LiteNetLib.xml",
+        "litenetlib.0.9.2.nupkg.sha512",
+        "litenetlib.nuspec"
+      ]
+    },
+    "LiteNetLibShared/1.0.0": {
+      "type": "project",
+      "path": "../../../../Desktop/LiteNetLibShared/LiteNetLibShared.csproj",
+      "msbuildProject": "../../../../Desktop/LiteNetLibShared/LiteNetLibShared.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "LiteNetLib >= 0.9.2",
+      "LiteNetLibShared >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Proprietario\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Proprietario\\source\\repos\\LineNetServer\\LineNetServer\\LineNetServer.csproj",
+      "projectName": "LineNetServer",
+      "projectPath": "C:\\Users\\Proprietario\\source\\repos\\LineNetServer\\LineNetServer\\LineNetServer.csproj",
+      "packagesPath": "C:\\Users\\Proprietario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Proprietario\\source\\repos\\LineNetServer\\LineNetServer\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Proprietario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\Proprietario\\Desktop\\LiteNetLibShared\\LiteNetLibShared.csproj": {
+              "projectPath": "C:\\Users\\Proprietario\\Desktop\\LiteNetLibShared\\LiteNetLibShared.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "LiteNetLib": {
+            "target": "Package",
+            "version": "[0.9.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

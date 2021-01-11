@@ -1,0 +1,17 @@
+C:\Users\Proprietario\source\repos\LineNetServer\LineNetServer\bin\Debug\netcoreapp3.1\LineNetServer.exe
+C:\Users\Proprietario\source\repos\LineNetServer\LineNetServer\obj\Debug\netcoreapp3.1\LineNetServer.csprojAssemblyReference.cache
+C:\Users\Proprietario\source\repos\LineNetServer\LineNetServer\obj\Debug\netcoreapp3.1\LineNetServer.AssemblyInfoInputs.cache
+C:\Users\Proprietario\source\repos\LineNetServer\LineNetServer\obj\Debug\netcoreapp3.1\LineNetServer.AssemblyInfo.cs
+C:\Users\Proprietario\source\repos\LineNetServer\LineNetServer\bin\Debug\netcoreapp3.1\LineNetServer.deps.json
+C:\Users\Proprietario\source\repos\LineNetServer\LineNetServer\bin\Debug\netcoreapp3.1\LineNetServer.runtimeconfig.json
+C:\Users\Proprietario\source\repos\LineNetServer\LineNetServer\bin\Debug\netcoreapp3.1\LineNetServer.runtimeconfig.dev.json
+C:\Users\Proprietario\source\repos\LineNetServer\LineNetServer\bin\Debug\netcoreapp3.1\LineNetServer.dll
+C:\Users\Proprietario\source\repos\LineNetServer\LineNetServer\bin\Debug\netcoreapp3.1\LineNetServer.pdb
+C:\Users\Proprietario\source\repos\LineNetServer\LineNetServer\bin\Debug\netcoreapp3.1\LiteNetLib.dll
+C:\Users\Proprietario\source\repos\LineNetServer\LineNetServer\bin\Debug\netcoreapp3.1\LiteNetLibShared.dll
+C:\Users\Proprietario\source\repos\LineNetServer\LineNetServer\bin\Debug\netcoreapp3.1\LiteNetLibShared.pdb
+C:\Users\Proprietario\source\repos\LineNetServer\LineNetServer\obj\Debug\netcoreapp3.1\LineNetServer.csproj.CoreCompileInputs.cache
+C:\Users\Proprietario\source\repos\LineNetServer\LineNetServer\obj\Debug\netcoreapp3.1\LineNetServer.csproj.CopyComplete
+C:\Users\Proprietario\source\repos\LineNetServer\LineNetServer\obj\Debug\netcoreapp3.1\LineNetServer.dll
+C:\Users\Proprietario\source\repos\LineNetServer\LineNetServer\obj\Debug\netcoreapp3.1\LineNetServer.pdb
+C:\Users\Proprietario\source\repos\LineNetServer\LineNetServer\obj\Debug\netcoreapp3.1\LineNetServer.genruntimeconfig.cache

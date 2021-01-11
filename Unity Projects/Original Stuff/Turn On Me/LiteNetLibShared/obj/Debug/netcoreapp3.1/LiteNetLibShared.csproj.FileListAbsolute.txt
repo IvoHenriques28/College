@@ -1,0 +1,9 @@
+C:\Users\Proprietario\Desktop\LiteNetLibShared\obj\Debug\netcoreapp3.1\LiteNetLibShared.csprojAssemblyReference.cache
+C:\Users\Proprietario\Desktop\LiteNetLibShared\obj\Debug\netcoreapp3.1\LiteNetLibShared.csproj.CoreCompileInputs.cache
+C:\Users\Proprietario\Desktop\LiteNetLibShared\obj\Debug\netcoreapp3.1\LiteNetLibShared.AssemblyInfoInputs.cache
+C:\Users\Proprietario\Desktop\LiteNetLibShared\obj\Debug\netcoreapp3.1\LiteNetLibShared.AssemblyInfo.cs
+C:\Users\Proprietario\Desktop\LiteNetLibShared\bin\Debug\netcoreapp3.1\LiteNetLibShared.deps.json
+C:\Users\Proprietario\Desktop\LiteNetLibShared\bin\Debug\netcoreapp3.1\LiteNetLibShared.dll
+C:\Users\Proprietario\Desktop\LiteNetLibShared\bin\Debug\netcoreapp3.1\LiteNetLibShared.pdb
+C:\Users\Proprietario\Desktop\LiteNetLibShared\obj\Debug\netcoreapp3.1\LiteNetLibShared.dll
+C:\Users\Proprietario\Desktop\LiteNetLibShared\obj\Debug\netcoreapp3.1\LiteNetLibShared.pdb

@@ -1,0 +1,52 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "LineNetServer/1.0.0": {
+        "dependencies": {
+          "LiteNetLib": "0.9.2",
+          "LiteNetLibShared": "1.0.0"
+        },
+        "runtime": {
+          "LineNetServer.dll": {}
+        }
+      },
+      "LiteNetLib/0.9.2": {
+        "runtime": {
+          "lib/netcoreapp3.0/LiteNetLib.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "LiteNetLibShared/1.0.0": {
+        "runtime": {
+          "LiteNetLibShared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LineNetServer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LiteNetLib/0.9.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S5elfCPxW7EvdaoNSTx3APLhiPEIeVWeEaUDBpGjqbRgyQVfjRv90v4Au4PZAs+dkeVYTf6F61XYKYWKythamw==",
+      "path": "litenetlib/0.9.2",
+      "hashPath": "litenetlib.0.9.2.nupkg.sha512"
+    },
+    "LiteNetLibShared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

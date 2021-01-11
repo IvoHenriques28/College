@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "LiteNetLibShared/1.0.0": {
+        "runtime": {
+          "LiteNetLibShared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LiteNetLibShared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
