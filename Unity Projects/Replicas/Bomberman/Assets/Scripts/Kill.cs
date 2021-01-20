@@ -19,7 +19,10 @@ public class Kill : MonoBehaviour
     void Update()
     {
         distance = Vector2.Distance(transform.position, player.transform.position);
-      
+        if(distance <= GetComponent<Explosion>().explosionPower + 0.2f)
+        {
+            SceneManager.LoadScene(1);
+        }
     }
 
  
