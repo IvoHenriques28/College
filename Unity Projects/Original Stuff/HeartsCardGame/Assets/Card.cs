@@ -6,6 +6,7 @@ using System.IO;
 
 public class Card : MonoBehaviour
 {
+    //card information, including value, suit and which player owns it
     public int value;
     public string suit;
 
@@ -16,6 +17,8 @@ public class Card : MonoBehaviour
 
     public SpriteRenderer spr;
     
+    //defines the parent object (the player that owns the card) as well as its value and suit depending on the type variable
+    //initialize the DOTween library
     void Start()
     {
         player = transform.parent.GetComponent<Player>();
@@ -25,48 +28,29 @@ public class Card : MonoBehaviour
         DOTween.Init();
     }
 
+    //Function that flips the cards of the AI players when they are played so the player can see them
     public void Flip(string spriteName)
     {
      
                 spr.sprite = Resources.Load<Sprite>(Path.Combine(spriteFolder, spriteName));
         gameObject.AddComponent<BoxCollider2D>();
     }
-    /*
-    public void PlayCard()
-    {
-        player = transform.parent.GetComponent<Player>();
-        if(GameManager.tableCards.Count < 4)
-        {
-            if (player.id != 0)
-            {
-                Flip(type);
-                transform.DOMove(player.target.transform.position, 0.2f);
 
-            }
-            if (spr.sprite.name == type)
-            {
-
-                transform.DOMove(player.target.transform.position, 0.2f);
-
-            }
-            player.hand.cardsObjects.Remove(gameObject);
-            player.hand.playableCards.Remove(gameObject);
-            GameManager.tableCards.Add(this);
-        }
-      
-
-        GameManager.instance.PlayerTurnFinished();
-    }
-    */
+    //when the player clicks on a card
     private void OnMouseDown()
     {
         
-        
+        //checks if it's his turn
         if (!player.isMyTurn) return;
+
+        //checks if his card is the 1st to be played of the round
         if (player.hand.searchType == null)
         {
             player.hand.searchType = suit;
         }
+
+        //if not, if the card pressed is from the player's hand and not the AI and if the suit of the card is allowed to be played
+        //calls the play card function from the player
         if (player.id == 0 && suit == player.hand.searchType)
         {
             player.selectedCard = this;

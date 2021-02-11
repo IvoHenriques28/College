@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    //variables such as whose turn it is, which round and turn of the round we are on and what cards are played each round
     public static GameManager instance;
     public static string turnCardType;
     public static int playerTurn = 0;
@@ -20,12 +21,15 @@ public class GameManager : MonoBehaviour
     public static List<Card> tableCards;
     public Text playerTurnTextField;
     public List<Player> players;
-    // Start is called before the first frame update
+    
     private void Awake()
     {
+        //resets turn to 1
         turn = 1;
         
         IsEndOfTurn = false;
+
+        //if it's a new game (round 1), reset all the scores of the players to 0
         if(round == 1)
         {
             PlayerPrefs.SetInt("score" + 0, 0);
@@ -38,7 +42,7 @@ public class GameManager : MonoBehaviour
         tableCards = new List<Card>();
     }
 
-
+    //plays the 1st card automatically each round (2 of Clubs)
     public void StartGame(GameObject obj)
     {
         
@@ -52,7 +56,7 @@ public class GameManager : MonoBehaviour
 
     public void FirstPlay()
     {
-        
+        //checks which player has the 2 of clubs at the start of the round and plays it automatically
         for (int i = 0; i < players.Count; i++)
         {
             var has2ofClubs = players[i].hand.HasCard(turnCardType);
@@ -72,6 +76,7 @@ public class GameManager : MonoBehaviour
 
         }
     }
+    //when a player ends his turn, switch whose turn it is to the next player
     public IEnumerator PlayerTurnFinished()
     {
         yield return new WaitForSeconds(0.2f);
@@ -84,22 +89,20 @@ public class GameManager : MonoBehaviour
 
     }
 
-    // Update is called once per frame
     void Update()
     {
         playerTurnTextField.text = "Player: " + playerTurn;
         Debug.Log(turn);
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            FirstPlay();
-        }
-      
 
+      
+        //if there's 4 cards on the table, means a turn has been played, so calls the end of turn function
         if (tableCards.Count == 4 && IsEndOfTurn == false)
         {
             StartCoroutine(ProcessEndOfTurn());
             IsEndOfTurn = true;
         }
+
+        //if there has been 10 turns played, means the round has ended and process the players current score and switches to the score display scene
         if(turn > 10)
         {
           
@@ -110,11 +113,8 @@ public class GameManager : MonoBehaviour
 
     }
 
-    public void PlayGame()
-    {
 
-    }
-
+    //always keep track what's the winning card on the table
     public Card GetBiggestCardOnTable()
     {
         
@@ -134,6 +134,7 @@ public class GameManager : MonoBehaviour
         return maxCard;
     }
 
+    //when a turn ends, give the player that had the biggest card all the cards on the table
     public void ProcessPlayerTurnWon(Player player)
     {
         foreach (var card in tableCards)
@@ -144,6 +145,8 @@ public class GameManager : MonoBehaviour
         }
 
     }
+
+    //process each players turn ending 
     public void ProcessPlayersTurnEnd()
     {
         foreach (var player in players)
@@ -151,6 +154,7 @@ public class GameManager : MonoBehaviour
             player.ProcessMyTurnEnd();
         }
     }
+    //reset everyones turn boolean and playableCards list
     public void ResetPlayersTurn()
     {
         foreach (var player in players)
@@ -160,6 +164,8 @@ public class GameManager : MonoBehaviour
         }
 
     }
+
+    //process each players start of turn
     public void ProcessPlayersTurnStart()
     {
         foreach (var player in players)
@@ -167,6 +173,8 @@ public class GameManager : MonoBehaviour
             player.ProcessMyTurnStart();
         }
     }
+
+    //when a turn ends, process who won the turn and reset all variables back to starting position for a new turn
     public IEnumerator ProcessEndOfTurn()
     {
         
@@ -186,7 +194,7 @@ public class GameManager : MonoBehaviour
     }
 
  
-
+    //when a round is played, switch scenes to the score display scene
     public IEnumerator ProcessSceneChange()
     {
         yield return new WaitForSeconds(3);
