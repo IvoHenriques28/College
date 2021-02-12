@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{BDB0E3D7-09B6-EE6D-F207-9661B881D505}</ProjectGuid>
+    <ProjectGuid>{EB8AA23C-2655-E22B-2EBB-05697394EDB3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -91,43 +91,43 @@
     <Compile Include="Assets\Plugins\LiteNetLib\Utils\NtpPacket.cs" />
     <Compile Include="Assets\Plugins\LiteNetLib\Utils\NtpRequest.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/Proprietario/Desktop/TurnOnMe/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/Proprietario/Documents/GitHub/College/Unity Projects/Original Stuff/Turn On Me/Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/Proprietario/Desktop/TurnOnMe/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/Proprietario/Documents/GitHub/College/Unity Projects/Original Stuff/Turn On Me/Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Recorder.Editor">
-      <HintPath>C:/Users/Proprietario/Desktop/TurnOnMe/Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
+      <HintPath>C:/Users/Proprietario/Documents/GitHub/College/Unity Projects/Original Stuff/Turn On Me/Project/Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Proprietario/Desktop/TurnOnMe/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Proprietario/Documents/GitHub/College/Unity Projects/Original Stuff/Turn On Me/Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Recorder">
-      <HintPath>C:/Users/Proprietario/Desktop/TurnOnMe/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
+      <HintPath>C:/Users/Proprietario/Documents/GitHub/College/Unity Projects/Original Stuff/Turn On Me/Project/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/Proprietario/Desktop/TurnOnMe/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/Proprietario/Documents/GitHub/College/Unity Projects/Original Stuff/Turn On Me/Project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/Proprietario/Desktop/TurnOnMe/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/Proprietario/Documents/GitHub/College/Unity Projects/Original Stuff/Turn On Me/Project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Proprietario/Desktop/TurnOnMe/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Proprietario/Documents/GitHub/College/Unity Projects/Original Stuff/Turn On Me/Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>C:/Users/Proprietario/Desktop/TurnOnMe/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+      <HintPath>C:/Users/Proprietario/Documents/GitHub/College/Unity Projects/Original Stuff/Turn On Me/Project/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/Proprietario/Desktop/TurnOnMe/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/Proprietario/Documents/GitHub/College/Unity Projects/Original Stuff/Turn On Me/Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>C:/Users/Proprietario/Desktop/TurnOnMe/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+      <HintPath>C:/Users/Proprietario/Documents/GitHub/College/Unity Projects/Original Stuff/Turn On Me/Project/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Proprietario/Desktop/TurnOnMe/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Proprietario/Documents/GitHub/College/Unity Projects/Original Stuff/Turn On Me/Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/Proprietario/Desktop/TurnOnMe/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/Proprietario/Documents/GitHub/College/Unity Projects/Original Stuff/Turn On Me/Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
